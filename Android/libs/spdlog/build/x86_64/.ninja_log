@@ -1,0 +1,11 @@
+# ninja log v5
+54	5891	7612357298882577	CMakeFiles/spdlog.dir/src/cfg.cpp.o	1ae184238c6a8576
+18	6068	7612357300791319	CMakeFiles/spdlog.dir/src/file_sinks.cpp.o	8036fbbac2e09d80
+11	6505	7612357305145174	CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o	f973906e70d7fc3b
+40	6786	7612357307936140	CMakeFiles/spdlog.dir/src/color_sinks.cpp.o	136409b46c84af61
+29	6943	7612357309583673	CMakeFiles/spdlog.dir/src/async.cpp.o	f11b0839f49cedd6
+71	8583	7612357325882834	CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o	9c69ae90600a9746
+84	11875	7612357358730398	example/CMakeFiles/example.dir/example.cpp.o	529cfc8ff392ee79
+1	12573	7612357365704282	CMakeFiles/spdlog.dir/src/spdlog.cpp.o	604dfa9767b18175
+12575	15119	7612357379333674	libspdlog.a	e7a0bcc6867d3d10
+15120	15365	7612357393335281	example/example	48926506f76827ef

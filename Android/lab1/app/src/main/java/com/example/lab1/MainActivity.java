@@ -14,9 +14,19 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("lab1");
         System.loadLibrary("mbedcrypto");
     }
+    
+    @SuppressLint("SetTextI18n")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-    private ActivityMainBinding binding;
-
+        // Example of a call to a native method
+        TextView tv = findViewById(R.id.sample_text);
+        tv.setText(stringFromJNI() + "\n" + initRng() +
+                "\n" + Arrays.toString(randomBytes(5)) + "\n" + Arrays.toString(encrypt(new byte[]{7, 9}, new byte[]{7, 8, 47})) +
+                "\n" + Arrays.toString(decrypt(new byte[]{7, 9, 3}, new byte[]{7, 8})));
+    }
 
 
     /**

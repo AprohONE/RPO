@@ -20,12 +20,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        String keyStr = "1234567890123456";
+        byte[] key = keyStr.getBytes(StandardCharsets.US_ASCII);
+        String dataStr = "Hello, world!";
+        byte[] data = dataStr.getBytes(StandardCharsets.UTF_8);
+        byte[] encrypted = encrypt(key, data);
+        byte[] decrypted = decrypt(key, encrypted);
         // Example of a call to a native method
         TextView tv = findViewById(R.id.sample_text);
         tv.setText(stringFromJNI() + "\n" + initRng() +
-                "\n" + Arrays.toString(randomBytes(5)) + "\n" + Arrays.toString(encrypt(new byte[]{7, 9}, new byte[]{7, 8, 47})) +
-                "\n" + Arrays.toString(decrypt(new byte[]{7, 9, 3}, new byte[]{7, 8})));
+                "\n" + Arrays.toString(randomBytes(5)) + "\n" + Arrays.toString(encrypted) +
+                "\n" + Arrays.toString(decrypted));
     }
 
 

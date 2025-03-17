@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd56072-b9c6-4a5a-9eeb-9c9bb27e27a4" name="Changes" comment="lab 2" />
+    <list default="true" id="5dd56072-b9c6-4a5a-9eeb-9c9bb27e27a4" name="Changes" comment="lab 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741179333914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab 3">
+      <option name="closed" value="true" />
+      <created>1741179511964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741179511964</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lab 4">
+      <option name="closed" value="true" />
+      <created>1741179730912</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741179730912</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +122,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab 1" />
     <MESSAGE value="lab 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 2" />
+    <MESSAGE value="lab 3" />
+    <MESSAGE value="lab 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 4" />
   </component>
 </project>

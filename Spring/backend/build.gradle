@@ -31,8 +31,16 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation group: 'org.postgresql', name: 'postgresql', version: '42.7.5'
+	implementation("org.springframework.boot:spring-boot-starter-security:3.4.3")
+	implementation("org.apache.commons:commons-lang3:3.17.0")
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+allprojects {
+	tasks.withType(JavaCompile) {
+		options.deprecation = true
+	}
 }
